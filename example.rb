@@ -74,8 +74,12 @@ end
 Ruby.new.vim
 
 ary = [1,2,3,4,5]
-puts ary.pop
-puts ary.shift
+print ary.pop
+print " "
+print ary.shift
+print " "
+print ary
+print " "
 
 class Bmi
 	def tested
