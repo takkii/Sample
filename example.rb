@@ -93,3 +93,23 @@ end
 Bmi.new.tested
 
 class Bmi ; def tested ; weight = 102 ; height = 1.75 ; result = weight / (height * height) ; case result.round ; when 10..17 ; puts "やせてますね" ; when 18..24 ; puts "標準です" ; when 25..29 ; puts "肥満度[1]です" ; when 30..39 ; puts "肥満度[2]です" ; when 35..39 ; puts "肥満度[3]です" ; when 40..50 ; puts "肥満度[4]です" ; end ; end ; end ; Bmi.new.tested
+
+module Echos
+	
+	def free
+		puts "freeとthreeをかけています"
+	end
+	
+	def vimmer
+		puts "Vim8.0リリース"
+	end
+
+module_function :free,:vimmer
+end
+
+Echos.free
+
+Echos.vimmer
+
+puts RUBY_VERSION
+
