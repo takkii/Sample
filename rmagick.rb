@@ -5,6 +5,17 @@ image = Magick::ImageList.new("octopass.png")
 
 image2 = image.wave(amplitude=10.0, wavelength=100.0)
 
+md = Magick::Draw.new
+
+md.annotate(image2,0,0,0,0,"ushio(cat) is octopass!") do
+
+	md.gravity = Magick::WestGravity
+
+	md.pointsize = 30
+	md.fill = "blue"
+	md.stroke = "white"
+end
+
 image2.write("CatTera.png")
 
 puts
