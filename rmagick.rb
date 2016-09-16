@@ -1,7 +1,7 @@
 require 'RMagick'
 include Magick
 
-image = Magick::ImageList.new("octocat.png")
+image = Magick::ImageList.new("octopass.png")
 
 image2 = image.wave(amplitude=10.0, wavelength=100.0)
 
