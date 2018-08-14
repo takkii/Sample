@@ -1,4 +1,5 @@
 # coding: utf-8
+
 class MyClass
 	def my_method
 		@v = 1
