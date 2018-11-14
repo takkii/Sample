@@ -3,14 +3,21 @@
 start_time = Time.now
 
 class Sample
+  def Sample.ruby
+    puts "aaaa"
+  end
+end
 
+Sample.ruby
+
+class Sample < Sample
 def Sample.ruby
 puts "Hello, World!"
+end
 end
 
 def sample2
 	puts "Fine Thank you!"
-end
 end
 
 Sample.ruby
@@ -32,4 +39,4 @@ print 'Performance： '
 print end_time
 puts ' sec.'
 
-puts RUBY_VERSIO
+puts RUBY_VERSION
