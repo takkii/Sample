@@ -2,7 +2,7 @@ require 'rss'
 require 'date'
 require 'kconv'
 
-rss = RSS::Parser.parse('http://blog.takkii.org/rss')
+rss = RSS::Parser.parse('http://takkii.hatenablog.com/rss')
 
 rss.items.collect do |scale|
 
