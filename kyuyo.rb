@@ -4,7 +4,7 @@ require 'active_support/core_ext/Numeric/conversions'
 
 # Sample class
 class Sample
-  attr_accessor :days, :cost, :hour, :money
+  attr_accessor :days, :cost, :hour, :money, :koyo
   def self.ruby
     # days = 日数、cost = 費用、hour = 時間、money = 時給, koyo = 雇用
     days = 20; cost = 4000; hour = 4; money = 832; koyo = 10
