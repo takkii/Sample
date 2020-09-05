@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
-require 'RMagick'
-include Magick
+require 'rmagick'
 
+# rmagick
 class Ushio
+  include Magick
   def self.cat
     image = Magick::ImageList.new('CatTera.png')
     image2 = image.wave(amplitude = 10.0, wavelength = 100.0)
