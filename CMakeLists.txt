@@ -13,8 +13,8 @@ set(Boost_USE_STATIC_RUNTIME OFF)
 set(Boost_DEBUG ON)
 set(CMAKE_BUILD_TYPE Debug)
 
-#add_executable(new_target boost_vesion.cpp
+#add_executable(boost boost_vesion.cpp
 #        all.h)
 
-add_executable(new_target main.cpp
+add_executable(boost main.cpp
         all.h)
