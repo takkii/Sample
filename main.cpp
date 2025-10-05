@@ -4,7 +4,7 @@ int main() {
     boost::array<int,4> a;
     a = {1, 2, 3};
     boost::array<string,4> b;
-    b = {"hello", "world", "nonoichi", "ishikawa"};
+    b = {"helloworld", "nonoichi", "ishikawa"};
 
     cout << a[0] << a[1] << a[2] << a[3] << endl;
     cout << b[0] << " " << b[1] << " " << b[2] << " " << b[3] << endl;
