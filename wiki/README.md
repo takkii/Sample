@@ -29,3 +29,4 @@ _C:\Users\sudok\boost_1_89_0\build_
 - [x] リンカーはVS2022の方が正確、Clion/boostはエラー塗れになる。
 - [x] include_directories($ENV{Boost_INCLUDE_DIR})
 →$ENV{}を使えば環境変数をcmakeで呼び出せる。値の入れ子を直接書かなくてよい。
+- [x] boost/array、int/stringを要素数4で検証。intは1230の順、stringは文字列が順番通りになっている。
