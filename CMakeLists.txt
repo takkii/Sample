@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 4.0)
-find_package(Boost REQUIRED)
+# find_package(Boost REQUIRED)
+find_package(Boost)
 
 project(Sample)
 
